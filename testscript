@@ -1,0 +1,41 @@
+alu admin@admin admin
+ru bart simpson bart@simpson.com secret
+ru homer simpson homer@simpson.com secret
+ru marge simpson marge@simpson.com secret
+gu
+exit
+
+lu homer@simpson.com secret
+f bart@simpson.com
+f marge@simpson.com
+exit
+
+lu marge@simpson.com secret
+aa walk park 50
+aa walk fridge 1
+aa run school 300
+exit
+
+lu bart@simpson.com secret
+aa walk park 200
+aa run park 20
+aa swim pool 50
+exit
+
+lu homer@simpson.com secret
+mf marge@simpson.com "hi marge"
+maf "good day!"
+dlb
+dlbbt walk
+llb park
+far marge@simpson.com
+exit
+
+lu marge@simpson.com secret
+lm
+exit
+
+lu bart@simpson.com secret
+lm
+exit
+
